@@ -4,22 +4,22 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+};
 
-  button{
-    display: block;
-    padding: 10px 30px;
-    border-radius: 100px;
-    color: #fff;
-    border: none;
-    background-color: #2f7bee;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    transition: .3s ease all;
+.boton{
+  display: block;
+  padding: 10px 30px;
+  border-radius: 100px;
+  color: #fff;
+  border: none;
+  background-color: #2f7bee;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: .3s ease all;
 
-    &:hover{
-      background-color: #0066FF;
-    }
+  &:hover{
+    background-color: #0066FF;
   }
 };
 

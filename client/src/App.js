@@ -6,9 +6,15 @@ function App() {
   return (
     <>
       <div className="contenedor-botones">
-        <button>Modal 1</button>
+        <button className="boton">Modal 1</button>
       </div>
-      <Modal/>
+      <Modal>
+        <div className="contenido">
+          <h1>Ventana Modal</h1>
+          <p>Reutilizable y con opciones de personalizaciones</p>
+          <button className="boton">Aceptar</button>
+        </div>
+      </Modal>
     </>
   );
 }
